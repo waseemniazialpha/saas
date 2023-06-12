@@ -160,21 +160,33 @@ swiper-container {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
   }
-
+.swiper-slide p{
+    color: #868898;
+    font-size: 14px;
+}
+.swiper-slide h4{
+    /* color: #111218; */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
   .swiper-slide img {
     display: block;
     width: 100%;
     object-fit: cover;
   }
 
-  swiper-container {
+  /* swiper-container {
     margin-left: auto;
     margin-right: auto;
+  } */
+ .swiper-pagination-bullet-active{
+    display: none !important;
   }
-
-
+  .swiper-pagination-bullet  {
+    display: none !important;
+  }
   /* section 3 css  */
 
   .section-3{
@@ -218,6 +230,7 @@ swiper-container {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 80px;
+    margin-bottom: 396px;
   }
   .section-3-bottom .col{
     background-color: #22242F;
@@ -242,3 +255,100 @@ swiper-container {
     font-size: 16px;
     line-height: 25px;
   }
+  .slider-btns{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none !important;
+  }
+  .swiper-navBtn{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    text-align: center;
+  }
+  .swiper-navBtn:hover{
+    border: 2px solid #22242F;
+  }
+
+  .section-4{
+    position: relative;
+  }
+  .section-4 .bg-2{
+    position: absolute;
+    /* width: 100%; */
+    top: -550px;
+    left: 0;
+    z-index: -1;
+}
+  .section-4 .bg-3{
+    position: absolute;
+    top: -90px;
+    right: 0;
+    z-index: -1;
+}
+.bg-4-r{
+    position: relative;
+}
+  .section-4 .bg-4{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+.center{
+    text-align: center;
+}
+.bg-4-r h2{
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 60px;
+}
+.btn-6{
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 12px 24px;
+    color: #ffffff;
+    border-radius: 50px;
+}
+.bottom-logos{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.bottom-logos .top{
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+.bottom-logos .top img{
+    margin-left: 21px;
+
+}
+.bottom-logos .bottomss img{
+    margin-left: 21px;
+
+}
+.last-section{
+    position: relative;
+}
+.container-last{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.bg-5{
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
+.last-content{
+    max-width: 500px;
+}
+.last-content h2{
+    font-size: 48px;
+}
